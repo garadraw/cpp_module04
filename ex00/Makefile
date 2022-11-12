@@ -4,7 +4,7 @@ CC = c++
 
 FLAGS = -Werror -Wall -Wextra -std=c++98 -g
 
-SRC = main.cpp Poly.cpp 
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp 
 
 RM = rm -f
 
