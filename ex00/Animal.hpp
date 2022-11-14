@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:36:59 by vsimeono          #+#    #+#             */
-/*   Updated: 2022/11/12 20:46:15 by vsimeono         ###   ########.fr       */
+/*   Updated: 2022/11/13 13:47:03 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 #define ANIMAL_HPP
 
 #include <iostream>
+
+
 
 class Animal
 {

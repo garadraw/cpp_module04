@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 20:37:07 by vsimeono          #+#    #+#             */
-/*   Updated: 2022/11/12 20:44:59 by vsimeono         ###   ########.fr       */
+/*   Updated: 2022/11/13 13:36:40 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class Dog : public Animal
 		Dog();
 		Dog(std::string name);
 		Dog(Dog const &src);
+		Dog &operator=(const Dog &src);
 		~Dog();
 
 		void makeSound(void) const;
